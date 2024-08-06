@@ -1,5 +1,9 @@
 import { useState } from 'react'
-import { ImagesSlider } from '../@/components/ui/images-slider'
+import Header from './components/Header'
+import Hero from './components/Hero'
+
+
+
 
 
 function App() {
@@ -7,7 +11,8 @@ function App() {
 
   return (
     <>
-      <ImagesSlider/>
+    <Header/>
+    <Hero/>
     </>
   )
 }
