@@ -47,6 +47,7 @@ const Render = () => {
 
   return (
     <>
+    {/* component render */}
       <TextTransition springConfig={presets.gentle}>
         {Text[index % Text.length]}
       </TextTransition>
