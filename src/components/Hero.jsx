@@ -6,18 +6,19 @@ import Onepng from '../assets/img/Onepng.png'
 const Text = ["Hair cut", "Make-up", "Spa", "Beard"];
 const Hero = () => {
   return (
-    <section className="  mt-[10rem]   lg:mt-[10rem]" id="hero">
-      <div className="relative ">
-        <div className=" relattive flex item-start z-0 w-1/3">
+    <section className="  mt-[10rem]   lg:mt-[6rem]" id="hero">
+      <div className="relative bg-[#d9b08c] border-n-14 rounded-lg h-[400px] m-auto w-5/6  border-2  ">
+        
+        <div className=" fixed flex  item-start z-0 w-1/3">
           <div className="text-n-1 font-playfair  p-2 lg:w-1/2 fixed lg:right-6 flex flex-col items-start ">
             <div className="text-5xl lg:text-7xl text-n-2 mt-28 lg:mt-0">We Love</div>
 
             <div className=" font-playfair text-7xl lg:text-8xl  right-28 ml-2 lg:text-[125px]  text-n-14">
               <Render />
             </div>
-            <div className="lg:text-2xl text-sm  lg:p-2 lg:mr-6 text-n-10 ml-2">
+            <div className=" overflow-hidden lg:text-2xl text-sm  lg:p-2 lg:mr-6 text-n-10 ml-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              in adipisci sint possimus quo inventore amet corrupti fuga, error,
+              in adipisci sint possimu fuga, error,
               alias{" "}
             </div>
             <Button className=" ml-2 mt-2 lg:ml-4 text-bold text-xl border-n-4 border-2 rounded-lg">
@@ -25,7 +26,7 @@ const Hero = () => {
             </Button>
           </div>
         </div>
-        <div className="absolute -top-[7rem]">
+        <div className="absolute top-72">
           <img src={Onepng} className=" mix-blend-soft-light" height={300} width={300} alt="bg"/>
         </div>
       </div>

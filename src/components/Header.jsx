@@ -25,10 +25,10 @@ const Header = () => {
   return (
     // useScroll Value
     <div className={`top-0  fixed w-full z-50 ${openNavigation?"bg-n-8":""}`}>
-      <div className="flex  px-4  lg:px-28 lg:-mt-4 justify-between items-center font-playfair">
+      <div className="flex text-white px-4  lg:px-28 lg:-mt-4 justify-between items-center font-playfair">
         <a href="nav" className="block w-[12rem]">
             {/* <img src={Cologo} alt="" /> */}
-            logo
+            CLASS-ONE
         </a>
       <nav className={`${openNavigation?"flex":"hidden"}   fixed top-[2rem] bottom-0 right-0 left-0 bg-n-8 lg:flex lg:static  lg:bg-transparent `}> 
         <div className="flex flex-col items-center justify-center m-auto lg:flex-row z-2">
