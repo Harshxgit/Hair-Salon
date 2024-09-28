@@ -6,12 +6,13 @@ import Onepng from '../assets/img/Onepng.png'
 const Text = ["Hair cut", "Make-up", "Spa", "Beard"];
 const Hero = () => {
   return (
+    //add small images in between
     <section className="  mt-[10rem]   lg:mt-[6rem]" id="hero">
       <div className="relative bg-[#d9b08c] border-n-14 rounded-lg h-[400px] m-auto w-5/6  border-2  ">
         
         <div className=" fixed flex  item-start z-0 w-1/3">
           <div className="text-n-1 font-playfair  p-2 lg:w-1/2 fixed lg:right-6 flex flex-col items-start ">
-            <div className="text-5xl lg:text-7xl text-n-2 mt-28 lg:mt-0">We Love</div>
+            <div className="text-5xl lg:text-7xl text-black mt-28 lg:mt-0">We Love</div>
 
             <div className=" font-playfair text-7xl lg:text-8xl  right-28 ml-2 lg:text-[125px]  text-n-14">
               <Render />
